@@ -35,7 +35,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full max-w-7xl mx-auto relative">
+    <div className="w-full max-w-7xl mx-auto relative font-opensans">
       {/* Constant Overlay Message */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 px-6 z-10">
         <h1 className="text-3xl md:text-6xl font-bold">
@@ -44,7 +44,7 @@ const Hero = () => {
         <p className="mt-4 text-lg md:text-xl max-w-3xl">
         Showcasing my latest interior design projects and the travels that inspire my creativity.
         </p>
-        <button className="mt-6 px-8 py-3 bg-myRed text-white font-semibold rounded-full md:w-[200px] hover:bg-myRed/50 shadow-2xl transition">
+        <button className="mt-6 px-8 py-3 bg-gradient-to-tr from-myGreen to-myRed text-white font-semibold rounded-full md:w-[200px]  shadow-2xl transition">
            Explore
         </button>
       </div>

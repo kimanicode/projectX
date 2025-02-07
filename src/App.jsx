@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import FearturedProjects from './components/FearturedProjects'
 import About from './components/About'
+import Read from './components/Read'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,9 @@ function App() {
       <Navbar />
       <Hero />    
       <About/>  
+      <Read />
       <FearturedProjects/>
+
 
       <Footer/>
     

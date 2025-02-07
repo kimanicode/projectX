@@ -73,7 +73,7 @@ export default function App() {
       <NavbarContent justify="end">
       
         <NavbarItem>
-          <Button as={Link} className="bg-gradient-to-tr from-myGreen to-myRed text-white shadow-lg" href="#" variant="flat">
+          <Button as={Link} className="bg-myRed text-white shadow-lg" href="#" variant="flat">
             Work with me
           </Button>
         </NavbarItem>

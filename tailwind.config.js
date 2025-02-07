@@ -13,7 +13,10 @@ export default {
         myGreen:'#09682a',
         myRed:'#E23237',
         myBlack: '#000008',
-      }
+      }, 
+      fontFamily: {
+        opensans: ["Open Sans", "sans-serif"],
+      },
     },
   },
   darkMode: "class",

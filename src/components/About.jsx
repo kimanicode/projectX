@@ -35,9 +35,9 @@ const About = () => {
           <p className='text-myGreen border-b py-2  border-myRed  font-bold'>Who Am I</p>
        </div>
 
-        <p className='py-3 font-light'> An interior designer with a deep passion for transforming spaces and a love for exploring the world. My journey in design is shaped by the places I visit, the cultures I experience, and the stories behind every space.</p>
+        <p className='py-3 font-opensans font-light'> An interior designer with a deep passion for transforming spaces and a love for exploring the world. My journey in design is shaped by the places I visit, the cultures I experience, and the stories behind every space.</p>
 
-        <p className='py-3 font-light'> Beyond interiors, traveling fuels my creativity. From the rich textures of Marrakech to the minimal elegance of Scandinavian design, each destination adds new layers of inspiration to my work. Every project I take on is a blend of global influences and personal creativity.</p>
+        <p className='py-3 font-opensans font-light'> Beyond interiors, traveling fuels my creativity. From the rich textures of Marrakech to the minimal elegance of Scandinavian design, each destination adds new layers of inspiration to my work. Every project I take on is a blend of global influences and personal creativity.</p>
       </div>
     </div>
   )
