@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import FearturedProjects from './components/FearturedProjects'
+import About from './components/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +11,10 @@ function App() {
   return (
     <div className='w-full'> 
       <Navbar />
-      <Hero />      
+      <Hero />    
+      <About/>  
       <FearturedProjects/>
+
       <Footer/>
     
       

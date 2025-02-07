@@ -79,11 +79,11 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu className="text-myGreen">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full"
+              className="w-full text-myGreen"
             //   color={
             //     index === 2 ? "warning" : index === menuItems.length - 1 ? "danger" : "foreground"
             //   }

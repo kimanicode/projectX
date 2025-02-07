@@ -15,16 +15,16 @@ const FearturedProjects = () => {
     ];
 
     return (
-        <div className='w-full py-12 px-4'>
+        <div className='w-full py-12 px-4 '>
             <h1 className='text-myRed font-bold text-center py-4'>Featured Projects</h1>
             <div className=' py-4 flex md:justify-between md:flex-row flex-col justify-center'>
                 <div className='md:w-[50%]'>
-                <p>A collection of thoughtfully designed spaces that blend aesthetics with functionality. Each project reflects creativity, attention to detail, and a passion for transforming environments.</p>
+                <p className='font-thin'>A collection of thoughtfully designed spaces that blend aesthetics with functionality. Each project reflects creativity, attention to detail, and a passion for transforming environments.</p>
                 </div>
 
-                <div className='py-4'>
+                <div className='py-4 md:pr-4'>
                     
-                <Button className='' color='success' variant="ghost">View All Projects
+                <Button className='rounded-full ' color='success' variant="ghost">View All Projects
                 </Button>
                 </div>
 
